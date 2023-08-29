@@ -24,7 +24,7 @@ export default class MeetJoel extends React.Component {
                             <h1 class="font-title">Who is this man?</h1>
                         </ContentHeader>
                         <p>Hey, I'm Joel Seidel!</p>
-                        <p>I'm a technical consultant and software developer (for money & for fun) from Philadelphia, PA.</p>
+                        <p>I'm a technical consultant and software developer (for money & for fun) from Dallas, TX</p>
                         <p>As you're reading this, I'm probably working hard on delivering value for a client, out on the lake on a kayak, watching a sports team I like lose, or trying to keep up with my labrador's boundless energy. That is, unless you're reading this at night, in which case I'm probably sleeping.</p>
                         <ContentHeader>
                             <h1 class="font-title">What does he do?</h1>
@@ -60,11 +60,11 @@ export default class MeetJoel extends React.Component {
                                 <tbody>
                                 <tr>
                                     <td><strong>Based In:</strong></td>
-                                    <td>Philadelphia, PA</td>
+                                    <td>Dallas, TX</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Occupation:</strong></td>
-                                    <td>Technical Consultant</td>
+                                    <td>Technology Project Manager</td>
                                 </tr>
                                 <tr>
                                     <td><strong>College:</strong></td>

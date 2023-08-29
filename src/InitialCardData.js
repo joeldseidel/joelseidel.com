@@ -15,13 +15,17 @@ const InitialCardData = {
         "task-3": {
             id: "task-3",
             title: "View his resume",
+        },
+        "task-4": {
+            id: "task-4",
+            title: "Contact Joel"
         }
     },
     columns: {
         "todo": {
             id: "todo",
             title: "To-Do",
-            taskIds: ["task-1", "task-2", "task-3"]
+            taskIds: ["task-1", "task-2", "task-3", "task-4"]
         },
         "inprogress": {
             id: "inprogress",
