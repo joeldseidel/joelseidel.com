@@ -23,23 +23,18 @@ export default class MeetJoel extends React.Component {
                         <ContentHeader>
                             <h1 class="font-title">Who is this man?</h1>
                         </ContentHeader>
-                        <p>Hey, I'm Joel Seidel!</p>
-                        <p>I'm a technical consultant and software developer (for money & for fun) from Dallas, TX</p>
-                        <p>As you're reading this, I'm probably working hard on delivering value for a client, out on the lake on a kayak, watching a sports team I like lose, or trying to keep up with my labrador's boundless energy. That is, unless you're reading this at night, in which case I'm probably sleeping.</p>
+                        <p>Glad you asked. I’m a project manager with a knack for turning chaos into clean roadmaps, jargon into clear communication, and coffee into successful launches. Whether it’s wrangling teams, untangling processes, or making sure deadlines are more than just hopeful suggestions, I get it done - with a smile and maybe a joke or two. If you're looking for someone who can juggle timelines, stakeholders, and an alarming number of browser tabs, you’ve found your guy.</p>
+                        <p>As you're reading this, I'm probably working hard on delivering value for a client, out on the lake on my kayak, watching a sports team I like lose, or trying to keep up with my labrador's boundless energy. That is, unless you're reading this at night, in which case I'm probably sleeping.</p>
                         <ContentHeader>
                             <h1 class="font-title">What does he do?</h1>
                         </ContentHeader>
-                        <h3 class="font-title">Consulting</h3>
-                        <p>I enjoy enabling development teams to deliver consistent value to clients. I like partnering with business folks to create high quality technical solutions and then driving the implementation of that solution from beginning to end.</p>
-                        <p>As an eternally results-driven person, I strongly believe in achieving results by elevating the performance of those around me with strategic workflows and by building strong team cultures. I'm committed bringing a leadership mentality; that is, leading by trust and influence instead of title.</p>
-                        <p>I bring strong full stack development skills, a willingness to fill any role asked of me, and a desire to win to every team I join.</p>
-                        <h3 class="font-title">Software Development</h3>
-                        <p>Not only do I love designing and talking about building software, I enjoy building it as well. I wrote my first line of code in the 7th grade to win a middle school video game development competition and haven't looked back.</p>
-                        <p>I have experience in working on both the front and back ends at both the start-up and Fortune 500 levels. While I'd say I'm <i>probably</i> a little stronger with Java than JavaScript (or Typescript) - I can build my UI and serve it with microservices too.</p>
-                        <p>My favorite thing about software development is not the language, the platform, or the project, but the design patterns that makes up good, readable, highly scalable software.</p>
-                        <h3 class="font-title">Rooting for Sports Teams That Are Not Good At Their Respective Sports</h3>
-                        <p>While I don't think <i>I'm</i> the problem, my sports allegiances span multiple states and somehow all of my favorite teams are abysmal.</p>
-                        <p>I was a Sixers fan during The Process, an enjoyer of the eternal dumpster fire that is the Detroit Lions, and a Detroit Tigers fan who still had a bedtime the last time they were any good (2013).</p>
+                        <h3 class="font-title">He builds, leads, and delivers</h3>
+                        <p>It started at Penn State, where I studied Information Science and Technology, blending technical problem-solving with an understanding of economics. While working with the Nittany AI Alliance, I saw firsthand how artificial intelligence could transform businesses, taking what once felt like science fiction and turning it into real, tangible solutions.</p>
+                        <p>That curiosity and drive led me to Accenture, where I played a key role in bringing a first-of-its-kind virtual assistant product to life. The technology was cool, no doubt, but it ultimatley was about working with teams, navigating challenges, and ensuring that a complex, ambitious project made it to production. From there, I stepped into leading a software team, where I found a passion for not just managing work, but shaping a culture of collaboration and accountability. Delivering critical software components meant more than just meeting deadlines - it was about creating an environment where engineers could thrive and complex problems could be tackled effectively.</p>
+                        <p>That mindset carried into my role at Citi, where I managed projects for a reference data platform, balancing technical execution with stakeholder management. Through it all, I’ve committed to leadership through trust and influence, ensuring that when challenges arise (and they always do) there’s someone who will take ownership, drive progress, and see the project through to completion.</p>
+                        <p>My favorite thing about technology is not the programming language, the platform, or the project, but the design patterns that makes up good, readable, highly scalable software. In the AI age, the bottleneck won't be building - it will be deciding what to build. My passion throughout my career has been aligning business to tech and following through with execution - a path that I look forward to taking into the future, whatever it may look like.</p>
+                        <h3 class="font-title">He roots for sports teams that are not good</h3>
+                        <p>While I don't think <i>I'm</i> the problem, my sports allegiances span multiple states and somehow all of my favorite teams are abysmal. I was a Mav's fan during The Luka Trade, an enjoyer of the eternal dumpster fire that is the Detroit Lions (hey, they're not so bad anymore!), and a Detroit Tigers fan who still had a bedtime the last time they were actually any good (2013).</p>
                         <p>If long-suffering is a virtue, I'm a saint of a sports fan.</p>
                         <ContentHeader>
                             <h1 class="font-title">How can I contact him?</h1>
@@ -60,11 +55,11 @@ export default class MeetJoel extends React.Component {
                                 <tbody>
                                 <tr>
                                     <td><strong>Based In:</strong></td>
-                                    <td>Dallas, TX</td>
+                                    <td>Dallas-Fort Worth, TX</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Occupation:</strong></td>
-                                    <td>Technology Project Manager</td>
+                                    <td>Technical Project Manager</td>
                                 </tr>
                                 <tr>
                                     <td><strong>College:</strong></td>
@@ -72,7 +67,7 @@ export default class MeetJoel extends React.Component {
                                 </tr>
                                 <tr>
                                     <td><strong>Degree:</strong></td>
-                                    <td>B.S. in Information Science & Technology</td>
+                                    <td>B.S. in Information Science & Technology; Economics Minor</td>
                                 </tr>
                                 <tr>
                                     <td><strong>MLB Debut:</strong></td>

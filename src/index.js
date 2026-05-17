@@ -4,13 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-let urlString = window.location.href;
-let url = new URL(urlString);
-let trackId = url.searchParams.get("fromresume");
-if(trackId != null) {
-  fetch('http://joelseidel.com:6969/resume/' + trackId);
-}
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <App />

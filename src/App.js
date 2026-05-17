@@ -64,7 +64,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       board: InitialCardData,
-      openModal: ""
+      openModal: "",
+      year: new Date().getFullYear()
     }
     this.contentViewRef = React.createRef();
     this.boardViewRef = React.createRef();
@@ -181,10 +182,10 @@ class App extends React.Component {
           <div class="after"></div>
         <Header>
           <NameTitle>Joel Seidel</NameTitle>
-          <TagLineTitle>Consultant&nbsp;&nbsp;|&nbsp;&nbsp;Leader&nbsp;&nbsp;|&nbsp;&nbsp;Developer</TagLineTitle>
+          <TagLineTitle>Project Manager&nbsp;&nbsp;|&nbsp;&nbsp;Tech Consultant&nbsp;&nbsp;|&nbsp;&nbsp;Developer</TagLineTitle>
         </Header>
         <div>
-          <Instructions>Drag a task to in-progress to start the task</Instructions>
+          <Instructions>Drag one of the below cards from to-do to in-progress to get started.</Instructions>
           <ProjectBoard>
             <DragDropContext onDragEnd={this.onDragEnd}>
               {
@@ -208,7 +209,7 @@ class App extends React.Component {
         </ContentViewer>
       }
       <footer>
-        <Copyright>© 2022 Joel Seidel</Copyright>
+        <Copyright>© {this.state.year} Joel Seidel</Copyright>
       </footer>
       </>
     );
